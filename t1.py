@@ -20,6 +20,6 @@ for i in range(10,0,-1):
     fd(60)
     lt(360/10)
     dot(20, 'red')
-    write(i, font=('Calibre', 20, 'bold'))
+    write(i, font=('Calibre', 25, 'bold'))
        
 mainloop()

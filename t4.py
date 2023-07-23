@@ -2,8 +2,8 @@ from turtle import *
 
 speed('fastest')
 pensize(2)
-bgcolor('black')
-pencolor('white')
+bgcolor('white')
+pencolor('black')
 colors=['red','yellow','blue','green','orange','purple']
 side = 6
 for i in range(side):

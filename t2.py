@@ -11,6 +11,6 @@ while i > 0:
     lt(90)
     i -= 4
     dot(10,'red')
-    write(i, font=('Calibre', 20, 'bold'))
+    write(i, font=('Calibre', 25, 'bold'))
 
 mainloop() #holds 
