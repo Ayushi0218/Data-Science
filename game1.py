@@ -37,7 +37,7 @@ def player_movement():
         score += 1
 
 def enemy_movement():
-    global score..
+    global score
     if alien.x < player.x:
         alien.x += es
     elif alien.x > player.x:
