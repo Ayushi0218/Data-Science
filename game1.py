@@ -8,11 +8,11 @@ score = 0
 music.play("remix")
 
 player = Actor("ironman",(WIDTH//2,HEIGHT//2))
-coin = Actor('coin',(randint(50,WIDTH-50),randint(50,HEIGHT-50)))
-alien = Actor('alien',(-100,HEIGHT//2))
+coin = Actor("coin",(randint(50,WIDTH-50),randint(50,HEIGHT-50)))
+alien = Actor("alien",(-100,HEIGHT//2))
 
-ps = 5 #player speed
-es = 2 #enemy speed
+ps = 10 #player speed
+es = 2  #enemy speed
 
 def player_movement():
     global score
@@ -28,7 +28,7 @@ def player_movement():
         player.y += ps
     else:
         player.angle = 0
-
+    
     #collision detection
     if player.colliderect(coin):
         coin.x = randint(50,WIDTH-50)
